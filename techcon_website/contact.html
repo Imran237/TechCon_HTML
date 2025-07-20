@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+</head>
+<body>
+
+    <!-- === Header Section === -->
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="schedule.html"><i class="fa fa-calendar"></i> Schedule</a></li>
+                <li><a href="register.html"><i class="fa fa-clipboard"></i> Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- === Main Content === -->
+    <main>
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+
+            <!-- Email -->
+            <p>Email: <a href="mailto:techcon2024@example.com">techcon2024@example.com</a></p>
+
+            <!-- Social Media -->
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="https://twitter.com/techcon2024 " target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+                <li><a href="https://facebook.com/techcon2024 " target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://linkedin.com/techcon2024 " target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://twitter.com/techcon2024 " target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </section>
+
+        <!-- === Embedded Google Map === -->
+        <section class="map-section">
+            <h2>Venue Location</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.2583796722715!2d-0.1923249852848193!3d5.603798295946212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9b2c972a73d9%3A0x240ee3a4bf2c9x12!2sKumasi+Fort!5e0!3m2!1sen!2sgh!4v1612307144387!5m2!1sen!2sgh" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    aria-label="Map showing location of TechCon 2024 venue">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- === Contact Form === -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action=" https://formspree.io/f/your-form-id " method="POST">
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- Message -->
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- === Footer Section === -->
+    <footer>
+        <p>&copy; Copyright 2024 TechCon 2024. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
